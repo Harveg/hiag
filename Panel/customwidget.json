@@ -1,0 +1,37 @@
+"customwidgets": {
+        "input": {
+            "template": "<h2>{{config.top_label}}</h2>\nAktueller wert:{{itemValue(config.lotnr)}}\n<div class=\"form-inline\">\n  <div class=\"form-group\">\n    <input type=\"text\" class=\"form-control\" no-snap-drag=\"true\"\n           ng-model=\"myvalue\" ng-value=\"itemValue(config.lotnr)\"></input>\n    <button type=\"button\" class=\"btn btn-primary\"\n           ng-click=\"sendCmd(config.lotnr, myvalue)\">Post!</button>\n  </div>\n</div>\n",
+            "name": "Input LOTNR",
+            "author": "Harveg",
+            "description": "Input field for update batch in each room",
+            "settings": [
+                {
+                    "type": "item",
+                    "id": "lotnr",
+                    "label": "Gicompar",
+                    "default": "LOTNR_ROOM1"
+                },
+                {
+                    "type": "string",
+                    "id": "top_label",
+                    "label": "lotnr",
+                    "default": "LOTNR_ROOM1"
+                }
+            ]
+        },
+        "overview LOTNR": {
+            "template": "<h2>{{config.top_label}}</h2>\n<div class=\"row\" ng-repeat=\"item in itemsInGroup('Notification_Gigompar')\">\n  <div class=\"col-xs-8 text-right\">{{item.name}}</div>\n  <div class=\"col-xs-4 text-left\" ng-style=\"{ color: itemValue(item.name)=='0'?'red':'green' }\">\n    {{itemValue(item.name)}}\n  </div>\n</div>",
+            "name": "Overview",
+            "author": "Harveg",
+            "description": "shows all active Badges of all rooms",
+            "settings": [
+                {
+                    "type": "string",
+                    "id": "top_label",
+                    "label": "Notifications_Gicompar",
+                    "default": "Overview of all badges in rooms"
+                }
+            ]
+        }
+    }
+}
