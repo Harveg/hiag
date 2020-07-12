@@ -5,8 +5,8 @@ Setup:
 
 1. Burn Openhabian Image with standart openhabian.conf file
 2. Install standart setup
-
-* Change Username and Passwort in menu with: sudo openhabian-config
+3.Connect by SSH to controller and open config: sudo openhabian-config
+* Change Username and Passwort in menu
 * Move root to USB
 * Install Grafana and Influxdb addon
 
