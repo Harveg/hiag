@@ -1,1 +1,7 @@
 .DS_Store
+# Alle secrets are locally stored in .env
+.env
+
+# Python stuff
+venv
+__pycache__
