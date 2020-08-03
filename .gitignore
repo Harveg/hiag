@@ -1,6 +1,7 @@
 .DS_Store
-# Alle secrets are locally stored in .env
+# Alle secrets are locally stored in .env & .docx
 .env
+.docx
 
 # Python stuff
 venv
