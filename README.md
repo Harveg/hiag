@@ -15,7 +15,8 @@ Setup:
 * Use regex transformation
 * Install shelly binding
 * Install mqtt broker moquette
-* Configure influxdb persistance
+* System Configuration: Configure influxdb persistance
+* System Configuration: Configurate IP-Adress and deactivate IPv6
 
 4. Install Modules:
 * sudo -u openhab pip3 install --target=/etc/openhab2/scripts/ pandas
