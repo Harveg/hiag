@@ -6,5 +6,6 @@
 2. install modules:
 * ```py -3 -m pip install --target=C://HARVEG/Scripts pandas```
 * ```py -3 -m pip install --target=C://HARVEG/Scripts/ Influxdb-client```
+*```py -3 -m pip install --target=C://HARVEG/Scripts/ watchdog```
 * _Optional_
 * ```py -3 -m pip install --target=C://HARVEG/Scripts/ notebook```
