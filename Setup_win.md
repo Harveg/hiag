@@ -7,5 +7,6 @@
 * ```py -3 -m pip install --target=C://HARVEG/Scripts pandas```
 * ```py -3 -m pip install --target=C://HARVEG/Scripts/ Influxdb-client```
 * ```py -3 -m pip install --target=C://HARVEG/Scripts/ watchdog```
+* ```py -3 -m pip install --target=C://HARVEG/Scripts/ python-openhab```
 > _Optional_
 * ```py -3 -m pip install --target=C://HARVEG/Scripts/ notebook```
