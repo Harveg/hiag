@@ -15,12 +15,14 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 1,
-  "iteration": 1599838130206,
+  "id": 3,
+  "iteration": 1600603480829,
   "links": [],
   "panels": [
     {
-      "aliasColors": {},
+      "aliasColors": {
+        "Lufttemperatur (Raum 1)": "blue"
+      },
       "bars": false,
       "dashLength": 10,
       "dashes": false,
@@ -57,7 +59,12 @@
       "pointradius": 2,
       "points": false,
       "renderer": "flot",
-      "seriesOverrides": [],
+      "seriesOverrides": [
+        {
+          "alias": "Lufttemperatur (Raum 1)",
+          "yaxis": 2
+        }
+      ],
       "spaceLength": 10,
       "stack": false,
       "steppedLine": false,
@@ -78,7 +85,7 @@
               "type": "tag"
             }
           ],
-          "measurement": "luftklappensteuerung",
+          "measurement": "gicom",
           "orderByTime": "ASC",
           "policy": "default",
           "refId": "A",
@@ -110,13 +117,62 @@
               "value": "/^$lotnr$/"
             }
           ]
+        },
+        {
+          "alias": "Luftklappe (Raum $tag_raum_nummer)",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "raum_nummer"
+              ],
+              "type": "tag"
+            }
+          ],
+          "measurement": "gicom",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "B",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "luftklappe_prozent"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "last"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "raum_nummer",
+              "operator": "=~",
+              "value": "/^$room$/"
+            },
+            {
+              "condition": "AND",
+              "key": "lot_nummer",
+              "operator": "=~",
+              "value": "/^$lotnr$/"
+            }
+          ]
         }
       ],
       "thresholds": [],
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Lufttemperatur",
+      "title": "Lufttemperatur / Luftklappe",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -134,6 +190,280 @@
         {
           "format": "celsius",
           "label": "Temperature",
+          "logBase": 1,
+          "max": "45",
+          "min": "20",
+          "show": true
+        },
+        {
+          "decimals": null,
+          "format": "percent",
+          "label": "Percent",
+          "logBase": 10,
+          "max": null,
+          "min": null,
+          "show": true
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+    },
+    {
+      "aliasColors": {
+        "Co2 (Raum 1)": "yellow"
+      },
+      "bars": false,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": null,
+      "fill": 1,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 12,
+        "w": 24,
+        "x": 0,
+        "y": 12
+      },
+      "hiddenSeries": false,
+      "id": 5,
+      "interval": "30m",
+      "legend": {
+        "alignAsTable": true,
+        "avg": true,
+        "current": true,
+        "max": true,
+        "min": true,
+        "rightSide": false,
+        "show": true,
+        "total": false,
+        "values": true
+      },
+      "lines": true,
+      "linewidth": 1,
+      "nullPointMode": "null",
+      "options": {
+        "dataLinks": []
+      },
+      "percentage": false,
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "alias": "Co2 (Raum $tag_raum_nummer)",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "raum_nummer"
+              ],
+              "type": "tag"
+            }
+          ],
+          "measurement": "gicom",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "co2_ppm"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "last"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "raum_nummer",
+              "operator": "=~",
+              "value": "/^$room$/"
+            },
+            {
+              "condition": "AND",
+              "key": "lot_nummer",
+              "operator": "=~",
+              "value": "/^$lotnr$/"
+            }
+          ]
+        }
+      ],
+      "thresholds": [],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "Co2 Concentration",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "format": "ppm",
+          "label": "Co2 Concentration",
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        },
+        {
+          "format": "short",
+          "label": "",
+          "logBase": 1,
+          "max": null,
+          "min": null,
+          "show": true
+        }
+      ],
+      "yaxis": {
+        "align": false,
+        "alignLevel": null
+      }
+    },
+    {
+      "aliasColors": {
+        "Co2 (Raum 1)": "yellow",
+        "Temperatur Zuluft Unit (Raum 1)": "super-light-yellow"
+      },
+      "bars": false,
+      "dashLength": 10,
+      "dashes": false,
+      "datasource": null,
+      "fill": 1,
+      "fillGradient": 0,
+      "gridPos": {
+        "h": 12,
+        "w": 24,
+        "x": 0,
+        "y": 24
+      },
+      "hiddenSeries": false,
+      "id": 6,
+      "interval": "30m",
+      "legend": {
+        "alignAsTable": true,
+        "avg": true,
+        "current": true,
+        "max": true,
+        "min": true,
+        "rightSide": false,
+        "show": true,
+        "total": false,
+        "values": true
+      },
+      "lines": true,
+      "linewidth": 1,
+      "nullPointMode": "null",
+      "options": {
+        "dataLinks": []
+      },
+      "percentage": false,
+      "pointradius": 2,
+      "points": false,
+      "renderer": "flot",
+      "seriesOverrides": [],
+      "spaceLength": 10,
+      "stack": false,
+      "steppedLine": false,
+      "targets": [
+        {
+          "alias": "Temperatur Zuluft Unit (Raum $tag_raum_nummer)",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "raum_nummer"
+              ],
+              "type": "tag"
+            }
+          ],
+          "measurement": "gicom",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "zuluft_temp_unit_grad_celsius"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "last"
+              }
+            ]
+          ],
+          "tags": [
+            {
+              "key": "raum_nummer",
+              "operator": "=~",
+              "value": "/^$room$/"
+            },
+            {
+              "condition": "AND",
+              "key": "lot_nummer",
+              "operator": "=~",
+              "value": "/^$lotnr$/"
+            }
+          ]
+        }
+      ],
+      "thresholds": [],
+      "timeFrom": null,
+      "timeRegions": [],
+      "timeShift": null,
+      "title": "Zuluft Temperatur Unit",
+      "tooltip": {
+        "shared": true,
+        "sort": 0,
+        "value_type": "individual"
+      },
+      "type": "graph",
+      "xaxis": {
+        "buckets": null,
+        "mode": "time",
+        "name": null,
+        "show": true,
+        "values": []
+      },
+      "yaxes": [
+        {
+          "format": "celsius",
+          "label": "Co2 Concentration",
           "logBase": 1,
           "max": null,
           "min": null,
@@ -155,7 +485,7 @@
     }
   ],
   "refresh": false,
-  "schemaVersion": 21,
+  "schemaVersion": 22,
   "style": "dark",
   "tags": [],
   "templating": {
@@ -163,15 +493,14 @@
       {
         "allValue": null,
         "current": {
-          "selected": true,
-          "tags": [],
-          "text": "5",
-          "value": "5"
+          "text": "1",
+          "value": "1"
         },
         "datasource": "InfluxDB",
         "definition": "SHOW TAG VALUES WITH KEY = \"raum_nummer\"",
         "hide": 0,
         "includeAll": true,
+        "index": -1,
         "label": "Room",
         "multi": false,
         "name": "room",
@@ -190,15 +519,14 @@
       {
         "allValue": null,
         "current": {
-          "selected": true,
-          "tags": [],
-          "text": "All",
-          "value": "$__all"
+          "text": "20200102",
+          "value": "20200102"
         },
         "datasource": "InfluxDB",
         "definition": "SHOW TAG VALUES WITH KEY = \"lot_nummer\"",
         "hide": 0,
         "includeAll": true,
+        "index": -1,
         "label": "LotNr",
         "multi": false,
         "name": "lotnr",
@@ -217,7 +545,7 @@
     ]
   },
   "time": {
-    "from": "now-90d",
+    "from": "now-7d",
     "to": "now"
   },
   "timepicker": {
@@ -237,5 +565,8 @@
   "timezone": "",
   "title": "Grow Rooms",
   "uid": "DRRJbzOGk",
-  "version": 8
+  "variables": {
+    "list": []
+  },
+  "version": 4
 }
