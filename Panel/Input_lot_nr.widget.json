@@ -1,0 +1,34 @@
+{
+    "name": "Input LOT-NR",
+    "author": "Harveg",
+    "description": "Input field for update batch/LOT-NR in each room",
+    "settings": [
+        {
+            "type": "item",
+            "id": "lot_nr",
+            "label": "hiag",
+            "default": "lot_nr_room1"
+        },
+        {
+            "type": "item",
+            "label": "hiag",
+            "default": "lot_nr_new_room1",
+            "id": "lot_nr_new",
+            "description": "input value for new LOT-NR"
+        },
+        {
+            "type": "item",
+            "id": "lot_nr_timestamp",
+            "label": "hiag",
+            "default": "lot_nr_timestamp_room1"
+        },
+        {
+            "type": "choice",
+            "id": "top_label",
+            "label": "hiag",
+            "default": "lotnr_room1",
+            "choices": "LOT-NR Room 1,LOT-NR Room 2,LOT-NR Room 3,LOT-NR Room 4,LOT-NR Room 5,LOT-NR Room 6,LOT-NR Room 7,LOT-NR Room 8,LOT-NR Room 9,LOT-NR Room 10,LOT-NR Room 11,LOT-NR Room 12,LOT-NR Room 13,LOT-NR Room 14,LOT-NR Room 15"
+        }
+    ],
+  "template": "<h2>{{config.top_label}}</h2>\n<h4>Aktueller wert:{{itemValue(config.lot_nr)}}<h4>\n<div class=\"form-inline\">\n  <div class=\"form-group\">\n    <input type=\"text\" class=\"form-control\" no-snap-drag=\"true\"\n           ng-model=\"myvalue\" ng-value=\"itemValue(config.lot_nr_new)\"></input>\n    <button type=\"button\" class=\"btn btn-primary\"\n           ng-click=\"sendCmd(config.lot_nr_new, myvalue)\">Post!</button>\n  </div>\n</div>\n<h4>Zeitstempel: Zum aktualisieren inhalt löschen, dann \"Post\" drücken<h4>\n<div class=\"form-inline\">\n  <div class=\"form-group\">\n    <input type=\"text\" class=\"form-control\" no-snap-drag=\"true\"\n           ng-model=\"myvalue1\" ng-value=\"itemValue(config.lot_nr_timestamp)\"></input>\n    <button type=\"button\" class=\"btn btn-primary\"\n           ng-click=\"sendCmd(config.lot_nr_timetamp, myvalue)\">Post!</button>\n  </div>\n</div>"
+}

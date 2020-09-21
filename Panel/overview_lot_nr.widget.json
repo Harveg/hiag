@@ -1,0 +1,14 @@
+{
+    "name": "Overview",
+    "author": "Harveg",
+    "description": "shows all active Badges of all rooms",
+    "settings": [
+        {
+            "type": "string",
+            "id": "top_label",
+            "label": "hiag",
+            "default": "Overview of all badges in rooms"
+        }
+    ],
+    "template": "<div ng-if=\"(config.item_header!='')\">\n    <div ><span style=\"width:100%;text-align:center\"><h4>{{config.top_label}}</h4></span></div>\n</div>\n<table style=\"width:100%\">\n  <td >\n\t\t<div class=\"row\" ng-repeat=\"item in itemsInGroup('lot_nr')\">\n\t\t\t<div class=\"col-xs-8 text-right\">{{item.name}}</span></div>\n\t\t\t<div class=\"col-xs-4 text-left\" ng-style=\"{ color: itemValue(item.name)=='0'?'red':'green' }\">{{itemValue(item.name)}}\n  </div>\n  <td >\n</div>"
+}
