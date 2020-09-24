@@ -10,5 +10,5 @@
             "default": "Overview of all badges in rooms"
         }
     ],
-    "template": "<div ng-if=\"(config.item_header!='')\">\n    <div ><span style=\"width:100%;text-align:center\"><h4>{{config.top_label}}</h4></span></div>\n</div>\n<table style=\"width:100%\">\n  <td >\n\t\t<div class=\"row\" ng-repeat=\"item in itemsInGroup('lot_nr')\">\n\t\t\t<div class=\"col-xs-8 text-right\">{{item.name}}</span></div>\n\t\t\t<div class=\"col-xs-4 text-left\" ng-style=\"{ color: itemValue(item.name)=='0'?'red':'green' }\">{{itemValue(item.name)}}\n  </div>\n  <td >\n</div>"
+    "template": "<h4>\n  <strong>\n    {{(itemsInGroup('lot_nr') | filter:{state:''}).length}}\n    /\n    {{(itemsInGroup('lot_nr')).length}}\n  </strong>\n  Active rooms:\n</h4>\n<table class=\"table table-condensed\">\n\t<tr ng-repeat=\"item in itemsInGroup('lot_nr')\">\n    <td class=\"text-right\">{{item.name}}</td>\n    <td class=\"text-left\" ng-style=\"{color: (itemValue(item.name)=='')?'red':'green'}\">\n      {{itemValue(item.name)}}\n    </td>\n  </tr>\n</table>"
 }
