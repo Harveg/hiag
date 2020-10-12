@@ -7,4 +7,6 @@ sudo  mkdir /media/usb
 
 sudo mount /dev/sdb1 /media/usb
 
+sudo cp -r "source directory" media/usb
+
 sudo umount /media/usb
