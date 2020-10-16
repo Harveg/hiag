@@ -23,8 +23,10 @@ Setup:
 * sudo apt get install libatlas-base-dev
 
 5. Start application Setup
-* Add Scripts to etc/openhab2/scripts/
-* Add influx.persist to etc/openhab2/persistence/
-* Add exec.whitelist to etc/openhab2/misc/
-Exec Binding:
+* Add Scripts to /etc/openhab2/scripts/
+* Add wiki template influxdb.persist to /etc/openhab2/persistence/
+* Add exec.whitelist to /etc/openhab2/misc/
+* Change influxdb.conf in /etc/influxdb/ ``bind-address = "0.0.0.0:8086"``
+
+### Optional: Exec Binding:
 /usr/bin/python3@@/etc/openhab2/scripts/API.py@@%2$s
