@@ -8,5 +8,5 @@ Start-Transcript $LogPathName –Append
 "------------------------------------------------------------------------" | Out-Default
 Stop-Transcript
 cd C://Harveg/scripts
-py -u hiag_watchdog_win | % ToString | Tee-Object $LogPathName
+py -u hiag_watchdog_win *>&1 | % ToString | Tee-Object $LogPathName
 
