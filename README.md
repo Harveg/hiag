@@ -9,8 +9,10 @@ Setup:
 * Change Username and Passwort in menu
 * Move root to USB
 * Install Grafana and Influxdb addon
+* Install Node-Red addon
 
-3. Configuration with paper UI
+4. Backup existing openhab configuration if exist (optionaly)
+5. Configuration with paper UI
 * Install exec binding
 * Use regex transformation
 * Install shelly binding
@@ -18,11 +20,11 @@ Setup:
 * System Configuration: Configure influxdb persistance
 * System Configuration: Configurate IP-Adress and deactivate IPv6
 
-4. Install Modules:
+6. Install Modules:
 * sudo -u openhab pip3 install --target=/etc/openhab2/scripts/ pandas
 * sudo apt get install libatlas-base-dev
 
-5. Start application Setup
+7. Start application Setup
 * Add Scripts to /etc/openhab2/scripts/
 * Add wiki template influxdb.persist to /etc/openhab2/persistence/
 * Add exec.whitelist to /etc/openhab2/misc/
