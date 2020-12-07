@@ -2,7 +2,6 @@
   "annotations": {
     "list": [
       {
-        "$$hashKey": "object:268",
         "builtIn": 1,
         "datasource": "-- Grafana --",
         "enable": true,
@@ -17,15 +16,102 @@
   "gnetId": null,
   "graphTooltip": 0,
   "id": 3,
-  "iteration": 1604659491557,
-  "links": [],
+  "iteration": 1607098691424,
+  "links": [
+    {
+      "icon": "external link",
+      "tags": [],
+      "targetBlank": true,
+      "title": "Wiki Dashboard",
+      "type": "link",
+      "url": "https://github.com/Harveg/hiag/wiki/Grafana-Dashboard"
+    }
+  ],
   "panels": [
+    {
+      "datasource": null,
+      "fieldConfig": {
+        "defaults": {
+          "custom": {}
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 17,
+      "options": {
+        "content": "# Die beiden Panel der Shellys (Feuchtigkeit & Temperatur) zeigen immer nur den Wert aller zuvor ausgewählten Shellys aus\nUm die Wert der gewünschten Shellys auszuwählen kann im Feld measurement_T = Temperature oder measurement_H = Humidity eine Auswahl getroffen werden.         ",
+        "mode": "markdown"
+      },
+      "pluginVersion": "7.1.0",
+      "targets": [
+        {
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "orderByTime": "ASC",
+          "policy": "default",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "value"
+                ],
+                "type": "field"
+              },
+              {
+                "params": [],
+                "type": "mean"
+              }
+            ]
+          ],
+          "tags": []
+        }
+      ],
+      "timeFrom": null,
+      "timeShift": null,
+      "title": "Info",
+      "type": "text"
+    },
+    {
+      "collapsed": false,
+      "datasource": null,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 3
+      },
+      "id": 13,
+      "panels": [],
+      "title": "Shellys",
+      "type": "row"
+    },
     {
       "aliasColors": {},
       "bars": false,
       "dashLength": 10,
       "dashes": false,
       "datasource": "OpenhabDB",
+      "decimals": 0,
+      "description": "Values of selected Shellys (measurement_T)",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -38,12 +124,12 @@
         "h": 8,
         "w": 10,
         "x": 0,
-        "y": 0
+        "y": 4
       },
       "hiddenSeries": false,
       "id": 8,
       "legend": {
-        "avg": false,
+        "avg": true,
         "current": false,
         "max": true,
         "min": true,
@@ -83,7 +169,7 @@
             }
           ],
           "hide": false,
-          "measurement": "Shellyht101_T",
+          "measurement": "/^$measurement_T$/",
           "orderByTime": "ASC",
           "policy": "default",
           "query": "SELECT mean(\"value\") FROM \"Shellyht101_T\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
@@ -121,7 +207,7 @@
               "type": "fill"
             }
           ],
-          "hide": false,
+          "hide": true,
           "measurement": "Shellyht_room1_102_T",
           "orderByTime": "ASC",
           "policy": "default",
@@ -160,7 +246,7 @@
               "type": "fill"
             }
           ],
-          "hide": false,
+          "hide": true,
           "measurement": "Shellyht_room1_103_T",
           "orderByTime": "ASC",
           "policy": "default",
@@ -189,7 +275,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Temperature Room1",
+      "title": "Temperatur",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -225,8 +311,8 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:911",
-          "format": "short",
+          "$$hashKey": "object:5403",
+          "format": "celsius",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -234,7 +320,7 @@
           "show": true
         },
         {
-          "$$hashKey": "object:912",
+          "$$hashKey": "object:5404",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -250,7 +336,7 @@
     },
     {
       "datasource": "OpenhabDB",
-      "description": "Last Value",
+      "description": "Last Value of selected Shellys (measurement_T)",
       "fieldConfig": {
         "defaults": {
           "custom": {
@@ -282,7 +368,7 @@
         "h": 4,
         "w": 4,
         "x": 10,
-        "y": 0
+        "y": 4
       },
       "id": 9,
       "options": {
@@ -317,7 +403,7 @@
             }
           ],
           "hide": false,
-          "measurement": "Shellyht101_T",
+          "measurement": "/^$measurement_T$/",
           "orderByTime": "ASC",
           "policy": "default",
           "query": "SELECT mean(\"value\") FROM \"Shellyht101_T\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
@@ -355,7 +441,7 @@
               "type": "fill"
             }
           ],
-          "hide": false,
+          "hide": true,
           "measurement": "Shellyht_f930e1_102_T",
           "orderByTime": "ASC",
           "policy": "default",
@@ -394,7 +480,7 @@
               "type": "fill"
             }
           ],
-          "hide": false,
+          "hide": true,
           "measurement": "Shellyht_room1_103_T",
           "orderByTime": "ASC",
           "policy": "default",
@@ -421,7 +507,7 @@
       ],
       "timeFrom": null,
       "timeShift": null,
-      "title": "Actual Temperature Room 1",
+      "title": "Actual Temperature measurement_T",
       "transformations": [
         {
           "id": "calculateField",
@@ -455,6 +541,8 @@
       "dashLength": 10,
       "dashes": false,
       "datasource": "OpenhabDB",
+      "decimals": 0,
+      "description": "Values of selected Shellys (measurement_H)",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -467,12 +555,12 @@
         "h": 8,
         "w": 10,
         "x": 14,
-        "y": 0
+        "y": 4
       },
       "hiddenSeries": false,
       "id": 10,
       "legend": {
-        "avg": false,
+        "avg": true,
         "current": false,
         "max": true,
         "min": true,
@@ -512,7 +600,7 @@
             }
           ],
           "hide": false,
-          "measurement": "Shellyht101_H",
+          "measurement": "/^$measurement_H$/",
           "orderByTime": "ASC",
           "policy": "default",
           "query": "SELECT mean(\"value\") FROM \"Shellyht101_T\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
@@ -550,7 +638,7 @@
               "type": "fill"
             }
           ],
-          "hide": false,
+          "hide": true,
           "measurement": "Shellyht_room1_102_H",
           "orderByTime": "ASC",
           "policy": "default",
@@ -589,7 +677,7 @@
               "type": "fill"
             }
           ],
-          "hide": false,
+          "hide": true,
           "measurement": "Shellyht_room1_103_H",
           "orderByTime": "ASC",
           "policy": "default",
@@ -618,7 +706,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Humidity Room1",
+      "title": "Feuchtigkeit",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -654,7 +742,7 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:911",
+          "$$hashKey": "object:5548",
           "format": "humidity",
           "label": null,
           "logBase": 1,
@@ -663,7 +751,7 @@
           "show": true
         },
         {
-          "$$hashKey": "object:912",
+          "$$hashKey": "object:5549",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -679,7 +767,7 @@
     },
     {
       "datasource": "OpenhabDB",
-      "description": "Last Value",
+      "description": "Last Value of selected shellys (measurement_H)",
       "fieldConfig": {
         "defaults": {
           "custom": {
@@ -711,7 +799,7 @@
         "h": 4,
         "w": 4,
         "x": 10,
-        "y": 4
+        "y": 8
       },
       "id": 11,
       "options": {
@@ -746,7 +834,7 @@
             }
           ],
           "hide": false,
-          "measurement": "Shellyht101_H",
+          "measurement": "/^$measurement_H$/",
           "orderByTime": "ASC",
           "policy": "default",
           "query": "SELECT mean(\"value\") FROM \"Shellyht101_T\" WHERE $timeFilter GROUP BY time($__interval) fill(null)",
@@ -784,7 +872,7 @@
               "type": "fill"
             }
           ],
-          "hide": false,
+          "hide": true,
           "measurement": "Shellyht_room1_102_H",
           "orderByTime": "ASC",
           "policy": "default",
@@ -823,7 +911,7 @@
               "type": "fill"
             }
           ],
-          "hide": false,
+          "hide": true,
           "measurement": "Shellyht_room1_103_H",
           "orderByTime": "ASC",
           "policy": "default",
@@ -850,7 +938,7 @@
       ],
       "timeFrom": null,
       "timeShift": null,
-      "title": "Actual Humidity Room 1",
+      "title": "Actual Humidity measurement_H",
       "transformations": [
         {
           "id": "calculateField",
@@ -877,6 +965,20 @@
       "type": "stat"
     },
     {
+      "collapsed": false,
+      "datasource": null,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 12
+      },
+      "id": 15,
+      "panels": [],
+      "title": "Gicom",
+      "type": "row"
+    },
+    {
       "aliasColors": {
         "Lufttemperatur (Raum 1)": "blue"
       },
@@ -897,7 +999,7 @@
         "h": 12,
         "w": 24,
         "x": 0,
-        "y": 8
+        "y": 13
       },
       "hiddenSeries": false,
       "id": 2,
@@ -926,8 +1028,23 @@
       "renderer": "flot",
       "seriesOverrides": [
         {
-          "$$hashKey": "object:1055",
           "alias": "Lufttemperatur (Raum 1)",
+          "yaxis": 1
+        },
+        {
+          "alias": "Luftklappe (Raum 1)",
+          "yaxis": 2
+        },
+        {
+          "alias": "Luftklappe (Raum 10)",
+          "yaxis": 2
+        },
+        {
+          "alias": "Luftklappe (Raum 2)",
+          "yaxis": 2
+        },
+        {
+          "alias": "Luftklappe (Raum 8)",
           "yaxis": 2
         }
       ],
@@ -1054,7 +1171,6 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:1068",
           "format": "celsius",
           "label": "Temperature",
           "logBase": 1,
@@ -1063,7 +1179,6 @@
           "show": true
         },
         {
-          "$$hashKey": "object:1069",
           "decimals": null,
           "format": "percent",
           "label": "Percent",
@@ -1080,7 +1195,8 @@
     },
     {
       "aliasColors": {
-        "Co2 (Raum 1)": "yellow"
+        "Co2 (Raum 1)": "yellow",
+        "Co2 (Raum 8)": "yellow"
       },
       "bars": false,
       "dashLength": 10,
@@ -1099,7 +1215,7 @@
         "h": 12,
         "w": 24,
         "x": 0,
-        "y": 20
+        "y": 25
       },
       "hiddenSeries": false,
       "id": 5,
@@ -1183,7 +1299,6 @@
       ],
       "thresholds": [
         {
-          "$$hashKey": "object:801",
           "colorMode": "warning",
           "fill": true,
           "line": true,
@@ -1195,7 +1310,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Co2 Concentration",
+      "title": "Co2 Konzentration",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -1211,7 +1326,7 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:446",
+          "$$hashKey": "object:4578",
           "format": "ppm",
           "label": "Co2 Concentration",
           "logBase": 1,
@@ -1220,7 +1335,7 @@
           "show": true
         },
         {
-          "$$hashKey": "object:447",
+          "$$hashKey": "object:4579",
           "format": "short",
           "label": "",
           "logBase": 1,
@@ -1237,12 +1352,14 @@
     {
       "aliasColors": {
         "Co2 (Raum 1)": "yellow",
+        "Dampf (Raum 8)": "blue",
         "Temperatur Zuluft Unit (Raum 1)": "super-light-yellow"
       },
       "bars": false,
       "dashLength": 10,
       "dashes": false,
       "datasource": null,
+      "description": "",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -1256,7 +1373,7 @@
         "h": 12,
         "w": 24,
         "x": 0,
-        "y": 32
+        "y": 37
       },
       "hiddenSeries": false,
       "id": 6,
@@ -1264,7 +1381,7 @@
       "legend": {
         "alignAsTable": true,
         "avg": true,
-        "current": true,
+        "current": false,
         "max": true,
         "min": true,
         "rightSide": false,
@@ -1289,7 +1406,7 @@
       "steppedLine": false,
       "targets": [
         {
-          "alias": "Temperatur Zuluft Unit (Raum $tag_raum_nummer)",
+          "alias": "Dampf (Raum $tag_raum_nummer)",
           "groupBy": [
             {
               "params": [
@@ -1313,7 +1430,7 @@
             [
               {
                 "params": [
-                  "zuluft_temp_unit_grad_celsius"
+                  "dampf_prozent"
                 ],
                 "type": "field"
               },
@@ -1342,7 +1459,7 @@
       "timeFrom": null,
       "timeRegions": [],
       "timeShift": null,
-      "title": "Zuluft Temperatur Unit",
+      "title": "Dampf",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -1358,22 +1475,22 @@
       },
       "yaxes": [
         {
-          "$$hashKey": "object:446",
-          "format": "celsius",
-          "label": "Temperature",
+          "$$hashKey": "object:4425",
+          "format": "percent",
+          "label": "Dampf",
           "logBase": 1,
-          "max": null,
-          "min": null,
+          "max": "100",
+          "min": "0",
           "show": true
         },
         {
-          "$$hashKey": "object:447",
-          "format": "short",
+          "$$hashKey": "object:4426",
+          "format": "percent",
           "label": "",
           "logBase": 1,
           "max": null,
-          "min": null,
-          "show": true
+          "min": "0",
+          "show": false
         }
       ],
       "yaxis": {
@@ -1392,8 +1509,8 @@
         "allValue": null,
         "current": {
           "selected": false,
-          "text": "All",
-          "value": "$__all"
+          "text": "1",
+          "value": "1"
         },
         "datasource": "InfluxDB",
         "definition": "SHOW TAG VALUES WITH KEY = \"raum_nummer\"",
@@ -1417,16 +1534,20 @@
       {
         "allValue": null,
         "current": {
-          "selected": false,
-          "text": "2020400108",
-          "value": "2020400108"
+          "selected": true,
+          "text": [
+            "All"
+          ],
+          "value": [
+            "$__all"
+          ]
         },
         "datasource": "InfluxDB",
         "definition": "SHOW TAG VALUES WITH KEY = \"lot_nummer\"",
         "hide": 0,
         "includeAll": true,
         "label": "LotNr",
-        "multi": false,
+        "multi": true,
         "name": "lotnr",
         "options": [],
         "query": "SHOW TAG VALUES WITH KEY = \"lot_nummer\"",
@@ -1439,11 +1560,534 @@
         "tagsQuery": "",
         "type": "query",
         "useTags": false
+      },
+      {
+        "allValue": null,
+        "current": {
+          "selected": true,
+          "tags": [],
+          "text": [
+            "Shellyht_room1_102_T",
+            "Shellyht_room1_103_T"
+          ],
+          "value": [
+            "Shellyht_room1_102_T",
+            "Shellyht_room1_103_T"
+          ]
+        },
+        "datasource": "OpenhabDB",
+        "definition": "",
+        "hide": 0,
+        "includeAll": false,
+        "label": null,
+        "multi": true,
+        "name": "measurement_T",
+        "options": [
+          {
+            "selected": true,
+            "text": "Shellyht_room1_102_T",
+            "value": "Shellyht_room1_102_T"
+          },
+          {
+            "selected": true,
+            "text": "Shellyht_room1_103_T",
+            "value": "Shellyht_room1_103_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room2_104_T",
+            "value": "Shellyht_room2_104_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room2_105_T",
+            "value": "Shellyht_room2_105_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room2_106_T",
+            "value": "Shellyht_room2_106_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room2_107_T",
+            "value": "Shellyht_room2_107_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room3_108_T",
+            "value": "Shellyht_room3_108_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room3_109_T",
+            "value": "Shellyht_room3_109_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room4_110_T",
+            "value": "Shellyht_room4_110_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room4_111_T",
+            "value": "Shellyht_room4_111_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room4_112_T",
+            "value": "Shellyht_room4_112_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room5_113_T",
+            "value": "Shellyht_room5_113_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room5_114_T",
+            "value": "Shellyht_room5_114_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room5_115_T",
+            "value": "Shellyht_room5_115_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room6_116_T",
+            "value": "Shellyht_room6_116_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room6_117_T",
+            "value": "Shellyht_room6_117_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room6_118_T",
+            "value": "Shellyht_room6_118_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room7_119_T",
+            "value": "Shellyht_room7_119_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room7_120_T",
+            "value": "Shellyht_room7_120_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room7_121_T",
+            "value": "Shellyht_room7_121_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room7_122_T",
+            "value": "Shellyht_room7_122_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room8_122_T",
+            "value": "Shellyht_room8_122_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room8_123_T",
+            "value": "Shellyht_room8_123_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room8_124_T",
+            "value": "Shellyht_room8_124_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room9_125_T",
+            "value": "Shellyht_room9_125_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room9_126_T",
+            "value": "Shellyht_room9_126_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room9_127_T",
+            "value": "Shellyht_room9_127_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room10_128_T",
+            "value": "Shellyht_room10_128_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room10_130_T",
+            "value": "Shellyht_room10_130_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room11_131_T",
+            "value": "Shellyht_room11_131_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room11_132_T",
+            "value": "Shellyht_room11_132_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room11_133_T",
+            "value": "Shellyht_room11_133_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room12_134_T",
+            "value": "Shellyht_room12_134_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room12_135_T",
+            "value": "Shellyht_room12_135_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room12_136_T",
+            "value": "Shellyht_room12_136_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room13_137_T",
+            "value": "Shellyht_room13_137_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room13_138_T",
+            "value": "Shellyht_room13_138_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room13_139_T",
+            "value": "Shellyht_room13_139_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room14_141_T",
+            "value": "Shellyht_room14_141_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room14_142_T",
+            "value": "Shellyht_room14_142_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room15_143_T",
+            "value": "Shellyht_room15_143_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room15_144_T",
+            "value": "Shellyht_room15_144_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room15_145_T",
+            "value": "Shellyht_room15_145_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_F93b61_100_T",
+            "value": "Shellyht_F93b61_100_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_F93c0b_101_T",
+            "value": "Shellyht_F93c0b_101_T"
+          },
+          {
+            "selected": true,
+            "text": "Shellyht101_T",
+            "value": "Shellyht101_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht162_T",
+            "value": "Shellyht162_T"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_f930e1_102_T",
+            "value": "Shellyht_f930e1_102_T"
+          }
+        ],
+        "query": "SHOW MEASUREMENTS WITH MEASUREMENT =~ /_T/",
+        "refresh": 0,
+        "regex": "",
+        "skipUrlSync": false,
+        "sort": 3,
+        "tagValuesQuery": "",
+        "tags": [],
+        "tagsQuery": "",
+        "type": "query",
+        "useTags": false
+      },
+      {
+        "allValue": null,
+        "current": {
+          "selected": true,
+          "tags": [],
+          "text": [
+            "Shellyht_room1_102_H",
+            "Shellyht_room1_103_H"
+          ],
+          "value": [
+            "Shellyht_room1_102_H",
+            "Shellyht_room1_103_H"
+          ]
+        },
+        "datasource": "OpenhabDB",
+        "definition": "",
+        "hide": 0,
+        "includeAll": false,
+        "label": null,
+        "multi": true,
+        "name": "measurement_H",
+        "options": [
+          {
+            "selected": false,
+            "text": "Shellyht_room1_101_H",
+            "value": "Shellyht_room1_101_H"
+          },
+          {
+            "selected": true,
+            "text": "Shellyht_room1_102_H",
+            "value": "Shellyht_room1_102_H"
+          },
+          {
+            "selected": true,
+            "text": "Shellyht_room1_103_H",
+            "value": "Shellyht_room1_103_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room2_105_H",
+            "value": "Shellyht_room2_105_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room2_106_H",
+            "value": "Shellyht_room2_106_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room2_107_H",
+            "value": "Shellyht_room2_107_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room3_108_H",
+            "value": "Shellyht_room3_108_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room3_109_H",
+            "value": "Shellyht_room3_109_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room4_110_H",
+            "value": "Shellyht_room4_110_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room4_111_H",
+            "value": "Shellyht_room4_111_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room4_112_H",
+            "value": "Shellyht_room4_112_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room5_113_H",
+            "value": "Shellyht_room5_113_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room5_114_H",
+            "value": "Shellyht_room5_114_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room5_115_H",
+            "value": "Shellyht_room5_115_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room6_116_H",
+            "value": "Shellyht_room6_116_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room6_117_H",
+            "value": "Shellyht_room6_117_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room6_118_H",
+            "value": "Shellyht_room6_118_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room7_119_H",
+            "value": "Shellyht_room7_119_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room7_120_H",
+            "value": "Shellyht_room7_120_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room7_121_H",
+            "value": "Shellyht_room7_121_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room7_122_H",
+            "value": "Shellyht_room7_122_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room8_122_H",
+            "value": "Shellyht_room8_122_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room8_123_H",
+            "value": "Shellyht_room8_123_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room8_124_H",
+            "value": "Shellyht_room8_124_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room9_125_H",
+            "value": "Shellyht_room9_125_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room9_126_H",
+            "value": "Shellyht_room9_126_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room9_127_H",
+            "value": "Shellyht_room9_127_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room10_128_H",
+            "value": "Shellyht_room10_128_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room10_130_H",
+            "value": "Shellyht_room10_130_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room11_131_H",
+            "value": "Shellyht_room11_131_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room11_132_H",
+            "value": "Shellyht_room11_132_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room11_133_H",
+            "value": "Shellyht_room11_133_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room12_134_H",
+            "value": "Shellyht_room12_134_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room12_135_H",
+            "value": "Shellyht_room12_135_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room12_136_H",
+            "value": "Shellyht_room12_136_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room13_137_H",
+            "value": "Shellyht_room13_137_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room13_138_H",
+            "value": "Shellyht_room13_138_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room13_139_H",
+            "value": "Shellyht_room13_139_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room14_141_H",
+            "value": "Shellyht_room14_141_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room14_142_H",
+            "value": "Shellyht_room14_142_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room15_143_H",
+            "value": "Shellyht_room15_143_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room15_144_H",
+            "value": "Shellyht_room15_144_H"
+          },
+          {
+            "selected": false,
+            "text": "Shellyht_room15_145_H",
+            "value": "Shellyht_room15_145_H"
+          }
+        ],
+        "query": "SHOW MEASUREMENTS WITH MEASUREMENT =~ /_H/ OFFSET 4",
+        "refresh": 0,
+        "regex": "",
+        "skipUrlSync": false,
+        "sort": 3,
+        "tagValuesQuery": "",
+        "tags": [],
+        "tagsQuery": "",
+        "type": "query",
+        "useTags": false
       }
     ]
   },
   "time": {
-    "from": "now-7d",
+    "from": "now-2d",
     "to": "now"
   },
   "timepicker": {
@@ -1454,5 +2098,5 @@
   "timezone": "browser",
   "title": "Grow Rooms",
   "uid": "DRRJbzOGk",
-  "version": 19
+  "version": 25
 }
