@@ -32,3 +32,4 @@
     ],
   "template": "<h2>{{config.top_label}}</h2>\n<h4>Aktueller wert:{{itemValue(config.lot_nr)}}<h4>\n<div class=\"form-inline\">\n  <div class=\"form-group\">\n    <input type=\"text\" class=\"form-control\" no-snap-drag=\"true\"\n           ng-model=\"myvalue\" ng-value=\"itemValue(config.lot_nr_new)\"></input>\n    <button type=\"button\" class=\"btn btn-primary\"\n           ng-click=\"sendCmd(config.lot_nr_new, myvalue)\">Post!</button>\n  </div>\n</div>\n<h4>Zeitstempel: Zum aktualisieren inhalt löschen, dann \"Post\" drücken<h4>\n<div class=\"form-inline\">\n  <div class=\"form-group\">\n    <input type=\"text\" class=\"form-control\" no-snap-drag=\"true\"\n           ng-model=\"myvalue1\" ng-value=\"itemValue(config.lot_nr_timestamp)\"></input>\n    <button type=\"button\" class=\"btn btn-primary\"\n           ng-click=\"sendCmd(config.lot_nr_timetamp, myvalue)\">Post!</button>\n  </div>\n</div>"
 }
+
