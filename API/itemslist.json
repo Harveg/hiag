@@ -1,0 +1,3228 @@
+[
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room15_144_H",
+    "state": "50.5 %",
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room15_144_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room12_1_H",
+    "state": "81.5 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room12_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room5_3_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room5_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room2_1_T",
+    "state": "20.8 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room2_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room15_144_T",
+    "state": "19.0 °C",
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room15_144_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room12_1_T",
+    "state": "22.8 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room12_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room1_3_H",
+    "state": "72.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room1_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room1_3_T",
+    "state": "28.3 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room1_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room2_1_H",
+    "state": "81.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room2_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room14_3_Battery",
+    "state": "NULL",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room14_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room4_3_Battery",
+    "state": "84.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room4_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room5_3_T",
+    "state": "29.3 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room5_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room10",
+    "state": "24-11-2020 12:00:00",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room10",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room9_2_T",
+    "state": "27.6 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room9_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room8_1_Battery",
+    "state": "54.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room8_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room15_2_H",
+    "state": "74.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room15_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room15",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room15",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room15_3_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room15_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room5_3_H",
+    "state": "62.5 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room5_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room11_3_H",
+    "state": "69.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room11_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room12",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room12",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room11",
+    "state": "01-12-2020 12:00:00",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room11",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room14",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room14",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room13",
+    "state": "08-12-2020 12:00:00",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room13",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room9_2_H",
+    "state": "60.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room9_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room10_2_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room10_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room15_2_T",
+    "state": "19.6 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room15_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room11_3_T",
+    "state": "23.5 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room11_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room2_2_T",
+    "state": "30.0 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room2_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "members": [],
+    "groupType": "Number",
+    "function": {
+      "name": "AVG"
+    },
+    "link": "http://digitalproducti:8080/rest/items/gHumidity",
+    "state": "NULL",
+    "editable": true,
+    "type": "Group",
+    "name": "gHumidity",
+    "label": "Humidity",
+    "category": "humidity",
+    "tags": [
+      "Humidity"
+    ],
+    "groupNames": [
+      "Home"
+    ]
+  },
+  {
+    "members": [],
+    "link": "http://digitalproducti:8080/rest/items/notifications_active",
+    "state": "NULL",
+    "editable": true,
+    "type": "Group",
+    "name": "notifications_active",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room2_2_H",
+    "state": "70.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room2_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room6_1_Battery",
+    "state": "60.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room6_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room8_3_H",
+    "state": "63.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room8_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room2_3_Battery",
+    "state": "0.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room2_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room9_1_T",
+    "state": "27.8 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room9_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room15_3_H",
+    "state": "76.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room15_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room8_3_T",
+    "state": "25.9 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room8_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room9_1_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room9_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room11_2_H",
+    "state": "58.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room11_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room1_2_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room1_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room9_1_H",
+    "state": "60.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room9_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room13_3_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room13_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room15_3_T",
+    "state": "19.3 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room15_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room11_2_T",
+    "state": "29.6 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room11_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room2_3_T",
+    "state": "20.4 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room2_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room5_1_Battery",
+    "state": "NULL",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room5_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room13_1_T",
+    "state": "26.5 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room13_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room12_3_H",
+    "state": "78.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room12_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room3_2_Battery",
+    "state": "36.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room3_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room1_3_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room1_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room13_1_H",
+    "state": "67.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room13_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room12_3_T",
+    "state": "21.4 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room12_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room2_3_H",
+    "state": "77.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room2_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room1_1_Signal",
+    "state": "4",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 4,
+      "step": 1,
+      "pattern": "%.0f",
+      "readOnly": true,
+      "options": [
+        {
+          "value": "0",
+          "label": "Kein Signal"
+        },
+        {
+          "value": "1",
+          "label": "Schwach"
+        },
+        {
+          "value": "2",
+          "label": "Durchschnittlich"
+        },
+        {
+          "value": "3",
+          "label": "Gut"
+        },
+        {
+          "value": "4",
+          "label": "Ausgezeichnet"
+        }
+      ]
+    },
+    "commandDescription": {
+      "commandOptions": [
+        {
+          "command": "0",
+          "label": "Kein Signal"
+        },
+        {
+          "command": "1",
+          "label": "Schwach"
+        },
+        {
+          "command": "2",
+          "label": "Durchschnittlich"
+        },
+        {
+          "command": "3",
+          "label": "Gut"
+        },
+        {
+          "command": "4",
+          "label": "Ausgezeichnet"
+        }
+      ]
+    },
+    "editable": true,
+    "type": "Number",
+    "name": "Shellyht_room1_1_Signal",
+    "label": "Signal Strength",
+    "category": "QualityOfService",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Piservice_Output",
+    "state": "NULL",
+    "stateDescription": {
+      "pattern": "%s",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "String",
+    "name": "Piservice_Output",
+    "label": "Output",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "members": [],
+    "link": "http://digitalproducti:8080/rest/items/Basement",
+    "state": "NULL",
+    "editable": true,
+    "type": "Group",
+    "name": "Basement",
+    "label": "Basement",
+    "category": "cellar",
+    "tags": [
+      "Basement"
+    ],
+    "groupNames": [
+      "Home"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room4_1_Battery",
+    "state": "NULL",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room4_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room8_2_H",
+    "state": "75.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room8_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room2_2_Battery",
+    "state": "0.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room2_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room3_1_H",
+    "state": "77.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room3_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room13_2_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room13_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room11_3_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room11_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room9_2_Battery",
+    "state": "82.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room9_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room8_2_T",
+    "state": "19.4 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room8_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room7_3_Battery",
+    "state": "NULL",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room7_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room3_1_T",
+    "state": "29.6 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room3_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room15_1_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room15_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room7_3_T",
+    "state": "23.0 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room7_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room12_2_H",
+    "state": "62.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room12_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room12_3_Battery",
+    "state": "61.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room12_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room12_2_T",
+    "state": "22.8 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room12_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room8_2_Battery",
+    "state": "26.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room8_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room7_3_H",
+    "state": "65.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room7_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room1_103_Signal",
+    "state": "4",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 4,
+      "step": 1,
+      "pattern": "%.0f",
+      "readOnly": true,
+      "options": [
+        {
+          "value": "0",
+          "label": "Kein Signal"
+        },
+        {
+          "value": "1",
+          "label": "Schwach"
+        },
+        {
+          "value": "2",
+          "label": "Durchschnittlich"
+        },
+        {
+          "value": "3",
+          "label": "Gut"
+        },
+        {
+          "value": "4",
+          "label": "Ausgezeichnet"
+        }
+      ]
+    },
+    "commandDescription": {
+      "commandOptions": [
+        {
+          "command": "0",
+          "label": "Kein Signal"
+        },
+        {
+          "command": "1",
+          "label": "Schwach"
+        },
+        {
+          "command": "2",
+          "label": "Durchschnittlich"
+        },
+        {
+          "command": "3",
+          "label": "Gut"
+        },
+        {
+          "command": "4",
+          "label": "Ausgezeichnet"
+        }
+      ]
+    },
+    "editable": true,
+    "type": "Number",
+    "name": "Shellyht_room1_103_Signal",
+    "label": "Signal Strength",
+    "category": "QualityOfService",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room14_2_Battery",
+    "state": "NULL",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room14_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "members": [],
+    "link": "http://digitalproducti:8080/rest/items/FF",
+    "state": "NULL",
+    "editable": true,
+    "type": "Group",
+    "name": "FF",
+    "label": "First Floor",
+    "category": "firstfloor",
+    "tags": [
+      "FirstFloor"
+    ],
+    "groupNames": [
+      "Home"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room8_1_H",
+    "state": "67.5 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room8_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room6_3_Battery",
+    "state": "36.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room6_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room3_2_H",
+    "state": "75.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room3_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room8_1_T",
+    "state": "22.4 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room8_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room3_2_T",
+    "state": "26.0 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room3_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room10_1_Battery",
+    "state": "NULL",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room10_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room13_3_T",
+    "state": "23.3 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room13_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room15_144_Battery",
+    "state": "80.0 %",
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room15_144_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room7_2_T",
+    "state": "26.4 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room7_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "members": [],
+    "link": "http://digitalproducti:8080/rest/items/lot_nr",
+    "state": "NULL",
+    "editable": true,
+    "type": "Group",
+    "name": "lot_nr",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room13_3_H",
+    "state": "73.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room13_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room7_2_Battery",
+    "state": "NULL",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room7_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room14_1_T",
+    "state": "NULL",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room14_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room7_2_H",
+    "state": "70.0",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room7_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room10_1_H",
+    "state": "64.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room10_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room11_1_Battery",
+    "state": "85.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room11_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room14_1_H",
+    "state": "NULL",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room14_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room4_1_T",
+    "state": "NULL",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room4_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room6_2_Battery",
+    "state": "60.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room6_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room3_3_H",
+    "state": "68.5 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room3_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "members": [],
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp",
+    "state": "NULL",
+    "editable": true,
+    "type": "Group",
+    "name": "lot_nr_timestamp",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room10_1_T",
+    "state": "26.5 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room10_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room1_1_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room1_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room3_3_T",
+    "state": "30.3 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room3_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room4_1_H",
+    "state": "NULL",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room4_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Piservice_Input",
+    "state": "NULL",
+    "stateDescription": {
+      "pattern": "%s",
+      "readOnly": false,
+      "options": []
+    },
+    "editable": true,
+    "type": "String",
+    "name": "Piservice_Input",
+    "label": "Input",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "members": [],
+    "link": "http://digitalproducti:8080/rest/items/Home",
+    "state": "NULL",
+    "editable": true,
+    "type": "Group",
+    "name": "Home",
+    "label": "Our Home",
+    "category": "house",
+    "tags": [
+      "Building"
+    ],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room6_3_H",
+    "state": "65.5 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room6_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room12_1_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room12_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room13_2_T",
+    "state": "25.3 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room13_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room7_1_T",
+    "state": "25.3 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room7_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room3_1_Battery",
+    "state": "92.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room3_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room13_2_H",
+    "state": "66.5 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room13_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room6_3_T",
+    "state": "25.4 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room6_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room7_1_H",
+    "state": "64.5 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room7_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room4_2_Battery",
+    "state": "82.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room4_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room4_2_T",
+    "state": "22.9 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room4_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room7",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room7",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room8",
+    "state": "2020530108",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room8",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room5",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room5",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room6",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room6",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room3",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room3",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room4",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room4",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room1",
+    "state": "2020560101",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room1",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room2",
+    "state": "2020450102",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room2",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room9",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room9",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room4_2_H",
+    "state": "69.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room4_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room15_2_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room15_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room1_1_H",
+    "state": "79.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room1_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room6_2_H",
+    "state": "65.5 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room6_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room10_3_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room10_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room2",
+    "state": "20-10-2020 12:00:00",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room2",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room3",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room3",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room4",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room4",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room14_1_Battery",
+    "state": "NULL",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room14_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room5",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room5",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room6",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room6",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room7",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room7",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room11_1_H",
+    "state": "60.5 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room11_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room14_3_T",
+    "state": "NULL",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room14_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room8",
+    "state": "24-11-2020 12:00:00",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room8",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room12_2_Battery",
+    "state": "88.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room12_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room9",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room9",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room8_3_Battery",
+    "state": "51.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room8_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room1_1_T",
+    "state": "20.8 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room1_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room6_2_T",
+    "state": "22.9 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room6_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room14_3_H",
+    "state": "NULL",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room14_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_F93b61_100_H",
+    "state": "0.0",
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_F93b61_100_H",
+    "label": "Humidity",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room13",
+    "state": "2020580113",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room13",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room10_3_H",
+    "state": "61.5 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room10_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room14",
+    "state": "NULL",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room14",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room15",
+    "state": "NULL",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room15",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room4_3_T",
+    "state": "30.9 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room4_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room5_1_T",
+    "state": "NULL",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room5_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room10_3_T",
+    "state": "25.9 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room10_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room10",
+    "state": "2020540110",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room10",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room11",
+    "state": "2020550111",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room11",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room12",
+    "state": "NULL",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room12",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_F93b61_100_T",
+    "state": "0.0 °C",
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_F93b61_100_T",
+    "label": "Temperature",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room5_1_H",
+    "state": "NULL",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room5_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_timestamp_room1",
+    "state": "08-12-2020 12:00:00",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_timestamp_room1",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr_timestamp"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room11_1_T",
+    "state": "27.5 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room11_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room4_3_H",
+    "state": "69.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room4_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room1_2_H",
+    "state": "0.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room1_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room3_3_Battery",
+    "state": "24.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room3_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room5_2_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room5_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room7_1_Battery",
+    "state": "0.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room7_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room6_1_H",
+    "state": "71.5 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room6_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room14_2_T",
+    "state": "NULL",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room14_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room1_2_T",
+    "state": "0.0 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room1_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room1_102_Signal",
+    "state": "NULL",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 4,
+      "step": 1,
+      "pattern": "%.0f",
+      "readOnly": true,
+      "options": [
+        {
+          "value": "0",
+          "label": "Kein Signal"
+        },
+        {
+          "value": "1",
+          "label": "Schwach"
+        },
+        {
+          "value": "2",
+          "label": "Durchschnittlich"
+        },
+        {
+          "value": "3",
+          "label": "Gut"
+        },
+        {
+          "value": "4",
+          "label": "Ausgezeichnet"
+        }
+      ]
+    },
+    "commandDescription": {
+      "commandOptions": [
+        {
+          "command": "0",
+          "label": "Kein Signal"
+        },
+        {
+          "command": "1",
+          "label": "Schwach"
+        },
+        {
+          "command": "2",
+          "label": "Durchschnittlich"
+        },
+        {
+          "command": "3",
+          "label": "Gut"
+        },
+        {
+          "command": "4",
+          "label": "Ausgezeichnet"
+        }
+      ]
+    },
+    "editable": false,
+    "type": "Number",
+    "name": "Shellyht_room1_102_Signal",
+    "label": "Signal Strength",
+    "category": "QualityOfService",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room6_1_T",
+    "state": "22.8 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room6_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room10_2_H",
+    "state": "65.5 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room10_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room14_2_H",
+    "state": "NULL",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room14_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room11_2_Battery",
+    "state": "65.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room11_2_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room11",
+    "state": "2020550111",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room11",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room10",
+    "state": "2020540110",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room10",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room8",
+    "state": "NULL",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room8",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room15_1_T",
+    "state": "18.4 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room15_1_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room9",
+    "state": "NULL",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room9",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room9_3_H",
+    "state": "68.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room9_3_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room15_1_H",
+    "state": "90.5 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room15_1_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room5_2_T",
+    "state": "28.0 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room5_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room9_3_T",
+    "state": "27.9 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room9_3_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room13",
+    "state": "2020580113",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room13",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room2_1_Battery",
+    "state": "0.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room2_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room12",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room12",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room15",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room15",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_room14",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_room14",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": [
+      "lot_nr"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room10_2_T",
+    "state": "25.9 °C",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "Shellyht_room10_2_T",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room13_1_Battery",
+    "state": "100.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room13_1_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room5_2_H",
+    "state": "65.0 %",
+    "stateDescription": {
+      "pattern": "%f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room5_2_H",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": [
+      "notifications_active"
+    ]
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room4",
+    "state": "NULL",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room4",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room5",
+    "state": "NULL",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room5",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room6",
+    "state": "NULL",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room6",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room7",
+    "state": "NULL",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room7",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room1",
+    "state": "2020560101",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room1",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room2",
+    "state": "NULL",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room2",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/lot_nr_new_room3",
+    "state": "NULL",
+    "editable": true,
+    "type": "String",
+    "name": "lot_nr_new_room3",
+    "label": "hiag",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://digitalproducti:8080/rest/items/Shellyht_room9_3_Battery",
+    "state": "87.0 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "step": 1,
+      "pattern": "%.0f %%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Shellyht_room9_3_Battery",
+    "category": "Battery",
+    "tags": [],
+    "groupNames": []
+  }
+]
