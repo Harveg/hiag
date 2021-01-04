@@ -16,7 +16,6 @@ Setup:
 * Install exec binding
 * Use regex transformation
 * Install shelly binding
-* Install mqtt broker moquette
 * System Configuration: Configure influxdb persistance
 * System Configuration: Configurate IP-Adress and deactivate IPv6
 
