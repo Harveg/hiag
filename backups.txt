@@ -23,3 +23,6 @@ sudo mount /dev/sdb1 /media/usb/backup
 influxd backup -portable /media/usb/backup
 
 
+
+influxd restore -portable /media/usb/backup
+
