@@ -5,6 +5,7 @@
 /var/lib/openhab2/backups/openhab2-backup-21_04_23-07_41_23.zip
 *****---------------Upgrade_OH3-------------------------*******
 /var/lib/openhab/backups/openhab-backup-21_05_17-09_18_25.zip
+/var/lib/openhab/backups/openhab-backup-21_05_28-12_05_41.zip. 
 
 lsblk
 
